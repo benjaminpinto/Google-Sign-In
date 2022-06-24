@@ -4,7 +4,8 @@
   "description": "E2E tests at Google's sign in page with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npx cypress run",
+    "open": "npx cypress open"
   },
   "keywords": [
     "E2E",
